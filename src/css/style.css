@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  size: 62.55;
+}
+.main_div {
+  min-height: 100vh;
+  background: #060822;
+  display: flex;
+  justify-content: center;
+}
+
+.child_div {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.child_div figure img {
+  width: 4rem;
+  height: 3rem;
+}
+
+.child_div figure figcaption {
+  color: #fff;
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding-top: 0.5rem;
+}
+.addItems {
+  position: relative;
+  margin-top: 1rem;
+}
+
+input {
+  min-width: 20rem;
+  height: 1.4rem;
+  width: 100%;
+  padding: 1rem 0.6rem;
+  font-size: 1rem;
+  line-height: 1.42857143;
+  display: block;
+  color: rgba(58, 57, 57);
+  background-color: #fff;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  -webkit-box-shadow: inset 0 0.1rem 0 0.1rem rgba(0 0 0 / 8%);
+  box-shadow: inset 0 0.1rem 0 0.1rem rgba(0 0 0 / 8%);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+input:focus {
+  outline: none;
+}
+
+.addItems i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  cursor: pointer;
+  padding-top: 10px;
+}
+.showItems {
+  min-width: 20rem;
+  /* min-height: 100vh; */
+  padding: 0 1rem 0 0.5rem;
+  position: relative;
+}
+.eachIitems:hover {
+  background: white;
+  color: black;
+}
+.eachIitems {
+  height: 2rem;
+  width: 20rem;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  background-image: none;
+  border-radius: 0.4rem;
+  display: block;
+  text-align: left;
+  background: rgb(62, 62, 196);
+  color: white;
+}
+.add-bt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 100%;
+  cursor: pointer;
+  padding-top: 8px;
+}
+.add-bt1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 100%;
+  cursor: pointer;
+  padding-top: 8px;
+}
+.add-bt1:hover{
+  color: rgb(234, 219, 4);
+}
+.add-btn:hover {
+  color: green;
+}
+.add-bt:hover {
+  color: red;
+}
+
+.last_btn button {
+  background-color: rgb(62, 62, 196);
+  color: white;
+  height: 2rem;
+  width: 6rem;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  background: white;
+  color: black;
+}
+.last_btn {
+  margin-top: 20px;
+}
